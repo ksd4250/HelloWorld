@@ -15,17 +15,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button = (Button) findViewById(R.id.button);
+
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
 
-                openActivity2();
+                openmmb2582newest();
             }
-        }):
-    }
-    public void openActivity2() {
+        });
 
-        Intent intent = new Intent(packageContext:this, activity_mmb2582__2.class);
+    }
+    public void openmmb2582newest() {
+
+        Intent intent = new Intent(this, mmb2582newest.class);
         startActivity(intent);
     }
 }
