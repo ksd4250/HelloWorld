@@ -20,6 +20,10 @@
             android:name=".mmb2582newest"
             android:label="@string/title_activity_mmb2582newest"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
