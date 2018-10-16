@@ -20,10 +20,6 @@
             android:name=".mmb2582newest"
             android:label="@string/title_activity_mmb2582newest"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".mmb2582__2"
-            android:label="@string/title_activity_mmb2582__2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
